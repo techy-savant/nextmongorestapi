@@ -11,3 +11,7 @@ export const GET = async () => {
     return new NextResponse("Error in fetching users" + error, { status: 500 });
   }
 };
+
+export const POST = async (req: Request) => {
+  
+}
